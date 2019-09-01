@@ -38,12 +38,12 @@ public class MainActivity extends AppCompatActivity {
                 fragmentTransaction.commit();
                 return true;
             case R.id.menu2:
-                Intent intent = new Intent(this, MainActivity.class);
+                Intent intent = new Intent(this, MenuActivity.class);
                 startActivity(intent);
                 return true;
             default:
                 return true;
+            }
         }
-    }
 
-}
+    }
